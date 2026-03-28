@@ -1,8 +1,14 @@
 import React from 'react'
 
-const AttendanceToggle = () => {
+const AttendanceToggle = ({ isPresent, onToggle }) => {
   return (
-    <div>AttendanceToggle</div>
+     // button to toggle present/absent
+    <button
+      className={`toggle-btn ${isPresent ? "present" : "absent"}`}
+      onClick={onToggle}
+    >
+      {isPresent ? "Present" : "Absent"}
+    </button>
   )
 }
 
