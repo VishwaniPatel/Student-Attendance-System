@@ -5,7 +5,7 @@ import AddStudentForm from './form/AddStudentForm'
 import StudentList from './list/StudentList'
 
 const Students = () => {
-     const [students, setStudents] = useState([]);
+    const [students, setStudents] = useState([]);
     const [showForm, setShowForm] = useState(false);
     // Function to fetch students
     const fetchStudents = async () => {

@@ -6,7 +6,6 @@ import './App.css'
 import Students from './pages/students/Students'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
